@@ -57,3 +57,52 @@ const user = {
     },
   ],
 };
+
+
+const artist = {
+  name: "artist1",
+  album: [
+    {
+      title: "album1",
+      date: new Date("2022-01-01"),
+      songs: [
+        {
+          title: "song1",
+          length: 5,
+          playbacks: 10,
+        },
+        {
+          title: "song2",
+          length: 3,
+          playbacks: 30,
+        },
+        {
+          title: "song3",
+          length: 3,
+          playbacks: 4,
+        },
+      ],
+    },
+    {
+      title: "album2",
+      date: new Date("2021-01-01"),
+      songs: [
+        {
+          title: "song4",
+          length: 5,
+          playbacks: 10,
+        },
+        {
+          title: "song5",
+          length: 3,
+          playbacks: 30,
+        },
+        {
+          title: "song6",
+          length: 3,
+          playbacks: 4,
+        },
+      ],
+    },
+  ],
+};
